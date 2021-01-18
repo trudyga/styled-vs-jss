@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import jss from 'jss';
+import preset from 'jss-preset-default';
+
+jss.setup(preset());
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
